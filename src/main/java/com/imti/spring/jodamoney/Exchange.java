@@ -3,10 +3,8 @@
  */
 package com.imti.spring.jodamoney;
 
-import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;
 
 /**
@@ -24,12 +22,6 @@ public class Exchange {
 
 	}
 
-	public static ExchangeWrapper getExchangeWrapper() {
-		ExchangeWrapper exchangeWrapper = new ExchangeWrapper();
-		exchangeWrapper.setBaseCurrency(CurrencyUnit.USD);
-		exchangeWrapper.setXchangedCurrency(CurrencyUnit.GBP);
-		exchangeWrapper.setAmount(BigDecimal.valueOf(100));
-		exchangeWrapper.setConversionAmount(BigDecimal.valueOf(0.70));
-		return exchangeWrapper;
-	}
+	
+
 }
