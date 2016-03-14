@@ -24,7 +24,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	compile('org.joda:joda-money:0.11')
 	compile('org.joda:joda-convert:1.8.1')
-	Compile('net.sf.supercsv:super-csv:2.4.0')
+	compile('net.sf.supercsv:super-csv:2.4.0')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
