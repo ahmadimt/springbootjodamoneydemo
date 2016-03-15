@@ -13,5 +13,6 @@ This application shows how to read exchange rate from a CSV file and use it for 
 
   for Linux users:
     ```./gradlew clean bootRun```
+    
   for Windows users:
     ```gradlew.bat clean bootRun```
